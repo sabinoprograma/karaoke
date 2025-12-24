@@ -52,9 +52,9 @@ const appId = typeof __app_id !== 'undefined' ? __app_id : 'yt-karaoke-app';
 // POOL DE LLAVES: Pon llaves de DIFERENTES PROYECTOS aquí para sumar cuota.
 // Si son del mismo proyecto, comparten el límite de 10,000.
 const KEY_POOL = [
-  "AIzaSyDP-tY6gBxMeblf-IwGgi2JQ_qJLuAdEzQ",
-  "AIzaSyAhIcF9_zmAOI7hGRlw8XyFJ0MxNstaA9s",
-  "AIzaSyBfLdh43TglELfag6LOWrRMh0UXvaDRP-4"
+  "ADD_YT_API_KEY_HERE",
+  "ADD_YT_API_KEY_HERE",
+  "ADD_YT_API_KEY_HERE"
 ].map(k => k.trim()); // Limpia espacios accidentales
 
 const CACHE_DURATION = 1000 * 60 * 60 * 2; // 2 horas de caché
